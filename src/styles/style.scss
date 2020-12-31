@@ -42,7 +42,7 @@ body {
 }
 
 .recorder-wrapper {
-    max-width: 500px;
+    max-width: 400px;
     position: relative;
     margin: 0 auto;
 }
@@ -51,8 +51,11 @@ body {
     margin-top: 20px;
 }
  canvas {
-     max-width: 400;
-     max-height: 300px;
+     max-width: 2500;
+     max-height: 200px;
+     margin: 0 auto;
+     position: relative;
+     left: 30px;
  }
 
 
