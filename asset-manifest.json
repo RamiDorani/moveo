@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/moveo/static/css/main.3d5e32fb.chunk.css",
+    "main.js": "/moveo/static/js/main.99b93bcd.chunk.js",
+    "main.js.map": "/moveo/static/js/main.99b93bcd.chunk.js.map",
+    "runtime-main.js": "/moveo/static/js/runtime-main.548dfb0e.js",
+    "runtime-main.js.map": "/moveo/static/js/runtime-main.548dfb0e.js.map",
+    "static/js/2.7aa5546e.chunk.js": "/moveo/static/js/2.7aa5546e.chunk.js",
+    "static/js/2.7aa5546e.chunk.js.map": "/moveo/static/js/2.7aa5546e.chunk.js.map",
+    "static/js/3.b529e6f8.chunk.js": "/moveo/static/js/3.b529e6f8.chunk.js",
+    "static/js/3.b529e6f8.chunk.js.map": "/moveo/static/js/3.b529e6f8.chunk.js.map",
+    "index.html": "/moveo/index.html",
+    "static/css/main.3d5e32fb.chunk.css.map": "/moveo/static/css/main.3d5e32fb.chunk.css.map",
+    "static/js/2.7aa5546e.chunk.js.LICENSE.txt": "/moveo/static/js/2.7aa5546e.chunk.js.LICENSE.txt",
+    "static/media/1.mp3": "/moveo/static/media/1.5eb417fc.mp3",
+    "static/media/2.mp3": "/moveo/static/media/2.37c82282.mp3",
+    "static/media/3.mp3": "/moveo/static/media/3.52c24c81.mp3",
+    "static/media/4.mp3": "/moveo/static/media/4.230fcab8.mp3",
+    "static/media/5.mp3": "/moveo/static/media/5.27bdc145.mp3",
+    "static/media/6.mp3": "/moveo/static/media/6.3e1411b4.mp3",
+    "static/media/7.mp3": "/moveo/static/media/7.2d08c654.mp3",
+    "static/media/8.mp3": "/moveo/static/media/8.f77c6da4.mp3",
+    "static/media/9.mp3": "/moveo/static/media/9.f2d668af.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.548dfb0e.js",
+    "static/js/2.7aa5546e.chunk.js",
+    "static/css/main.3d5e32fb.chunk.css",
+    "static/js/main.99b93bcd.chunk.js"
+  ]
+}
