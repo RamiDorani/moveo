@@ -1,0 +1,76 @@
+body {
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.loops-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    grid-gap: 70px;
+    padding-top: 50px;
+}
+
+.loop-card {
+    border: 1px solid black;
+    position: relative;
+    height: 250px;
+}
+
+
+
+.status-header {
+    cursor: pointer;
+    font-size: 25px;
+    width: 100px;
+    margin : 0 auto;
+    border-radius: 10%;
+}
+
+
+.name-span {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.loop-audio {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.name-header {
+    text-align: center;
+}
+
+.recorder-wrapper {
+    max-width: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.recorder-wrapper >* {
+    margin-top: 20px;
+}
+ canvas {
+     max-width: 400;
+     max-height: 300px;
+ }
+
+
+.record-controller {
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+}
+
+
+
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
