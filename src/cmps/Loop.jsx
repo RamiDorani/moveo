@@ -39,8 +39,8 @@ export class Loop extends Component {
         if (status) {
             const idxIsAlreadyOn = loopService.checkIfAlreadyOn(id); //check if there pad that is already on.
             if (idxIsAlreadyOn >= 0) {// if true i capture the current time according to Refs
-                var test = this[`elAudioTag${idxIsAlreadyOn}`].current.currentTime;
-                this[`elAudioTag${idx}`].current.currentTime = test;
+                let currentTime = this[`elAudioTag${idxIsAlreadyOn}`].current.currentTime;
+                this[`elAudioTag${idx}`].current.currentTime = currentTime;
             }
             this[`elAudioTag${idx}`].current.controls = true;
             this[`elAudioTag${idx}`].current.play();
@@ -78,6 +78,7 @@ export class Loop extends Component {
         )
     }
 }
+
 
 
 
