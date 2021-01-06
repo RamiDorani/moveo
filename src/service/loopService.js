@@ -58,6 +58,7 @@ function checkIfAlreadyOn(id) {
         var idx = loopOn[0].index;
         return idx;
     }
+    else return -1
 }
 
 
