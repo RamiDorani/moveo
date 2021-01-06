@@ -34,7 +34,7 @@ export class Loop extends Component {
         const { flag } = this.state
         const status = loopService.changeStatus(id);
         this.setState({ flag: !flag });
-        const loop = loopService.getLoopById(id);
+        
 
         if (status) {
             const idxIsAlreadyOn = loopService.checkIfAlreadyOn(id); //check if there pad that is already on.
